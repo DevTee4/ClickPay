@@ -1,118 +1,89 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
+import React from "react";
+import { NativeBaseProvider, Box, extendTheme, Center, HStack, Icon, Pressable, Text } from "native-base";
+import { NavigationContainer } from '@react-navigation/native';
+import Router from "./src/Navigations";
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faSquareCheck } from '@fortawesome/free-solid-svg-icons/faSquareCheck'
+import { faEyeSlash } from '@fortawesome/free-solid-svg-icons/faEyeSlash';
+import { FontAwesomeIcon } from "@fortawesome/react-native-fontawesome";
+import { faCartShopping, faHome, faSearch, faUser } from "@fortawesome/free-solid-svg-icons";
 
-import React from 'react';
-import type {PropsWithChildren} from 'react';
-import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
-
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
-
-type SectionProps = PropsWithChildren<{
-  title: string;
-}>;
-
-function Section({children, title}: SectionProps): React.JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
+library.add(fab, faSquareCheck, faEyeSlash)
+const App = () => {
+  const theme = extendTheme({
+    colors: {
+      // Add new color
+      primary: {
+        50: "#004852",
+      },
+      secondary: {
+        50: "#e8f54b"
+      },
+      // Redefining only one shade, rest of the color will remain same.
+      grey: {
+        50: "#efefef",
+        100: "#CBCBCB",
+        200: "#EFF4F6",
+        300: "#A8A8A8",
+        400: "#323142",
+        500: "#666666",
+      }
+    },
+    fontConfig: {
+      Poppins: {
+        100: {
+          normal: 'PoppinsThin-8KoZ',
+          italic: 'PoppinsThinItalic-0bXH',
+        },
+        200: {
+          normal: 'PoppinsExtraLight-jfZ1',
+          italic: 'PoppinsExtraLightItalic-8Qp5',
+        },
+        300: {
+          normal: 'PoppinsLight-l4Zw',
+          italic: 'PoppinsLightItalic-nexO',
+        },
+        400: {
+          normal: 'PoppinsRegular-B2Bw',
+        },
+        500: {
+          normal: 'PoppinsMedium-1JPv',
+          italic: 'PoppinsMediumItalic-REKE',
+        },
+        600: {
+          normal: 'PoppinsSemiBold-8l8n',
+          italic: 'PoppinsSemiBoldItalic-Y132',
+        },
+        700: {
+          normal: 'PoppinsBold-GdJA',
+          italic: 'PoppinsBoldItalic-jgZy',
+        },
+        800: {
+          normal: 'PoppinsExtraBold-zDdL',
+          italic: 'PoppinsExtraBoldItalic-5J8v',
+        },
+        900: {
+          normal: 'PoppinsBlack-VxOe',
+          italic: 'PoppinsBlackItalic-JXmK',
+        },
+      },
+    },
+    fonts: {
+      heading: "Poppins",
+      body: "Poppins",
+      mono: "Poppins",
+    },
+    config: {
+      initialColorMode: "light"
+    }
+  });
   return (
-    <View style={styles.sectionContainer}>
-      <Text
-        style={[
-          styles.sectionTitle,
-          {
-            color: isDarkMode ? Colors.white : Colors.black,
-          },
-        ]}>
-        {title}
-      </Text>
-      <Text
-        style={[
-          styles.sectionDescription,
-          {
-            color: isDarkMode ? Colors.light : Colors.dark,
-          },
-        ]}>
-        {children}
-      </Text>
-    </View>
+    <NativeBaseProvider theme={theme}>
+      <NavigationContainer>
+        <Router />
+      </NavigationContainer>
+    </NativeBaseProvider>
   );
-}
-
-function App(): React.JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
-
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
-
-  return (
-    <SafeAreaView style={backgroundStyle}>
-      <StatusBar
-        barStyle={isDarkMode ? 'light-content' : 'dark-content'}
-        backgroundColor={backgroundStyle.backgroundColor}
-      />
-      <ScrollView
-        contentInsetAdjustmentBehavior="automatic"
-        style={backgroundStyle}>
-        <Header />
-        <View
-          style={{
-            backgroundColor: isDarkMode ? Colors.black : Colors.white,
-          }}>
-          <Section title="Step One">
-            Edit <Text style={styles.highlight}>App.tsx</Text> to change this
-            screen and then come back to see your edits.
-          </Section>
-          <Section title="See Your Changes">
-            <ReloadInstructions />
-          </Section>
-          <Section title="Debug">
-            <DebugInstructions />
-          </Section>
-          <Section title="Learn More">
-            Read the docs to discover what to do next:
-          </Section>
-          <LearnMoreLinks />
-        </View>
-      </ScrollView>
-    </SafeAreaView>
-  );
-}
-
-const styles = StyleSheet.create({
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
-  },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-  },
-  highlight: {
-    fontWeight: '700',
-  },
-});
-
+};
 export default App;

@@ -1,0 +1,81 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/Assets/Fonts/poppins-font/PoppinsBlack-VxOe.otf",
+      "sha1": "a33873eb3d7abf75f28f71a70f1df36a79be20dc"
+    },
+    {
+      "path": "src/Assets/Fonts/poppins-font/PoppinsBlackItalic-JXmK.otf",
+      "sha1": "2c25984c9bb1c0a79ba1e3581713d93a3cd81a9f"
+    },
+    {
+      "path": "src/Assets/Fonts/poppins-font/PoppinsBold-GdJA.otf",
+      "sha1": "84cb75afcc8ae2bf34d0c728764fe4e8581bbc55"
+    },
+    {
+      "path": "src/Assets/Fonts/poppins-font/PoppinsBoldItalic-jgZy.otf",
+      "sha1": "06b8c68ff7a9e007d9960b0bb10ac4c89d87858f"
+    },
+    {
+      "path": "src/Assets/Fonts/poppins-font/PoppinsExtrabold-zDdL.otf",
+      "sha1": "e4108d1fdbd4cd83c3411eda0ac6be714bdbf435"
+    },
+    {
+      "path": "src/Assets/Fonts/poppins-font/PoppinsExtraboldItalic-5J8v.otf",
+      "sha1": "60d12bd4b51126027195787b8939bf57a7b005f8"
+    },
+    {
+      "path": "src/Assets/Fonts/poppins-font/PoppinsExtralight-6Je1.otf",
+      "sha1": "ba1462342f56a8d889a02baef04f4658b6b332f4"
+    },
+    {
+      "path": "src/Assets/Fonts/poppins-font/PoppinsExtralightItalic-yDBV.otf",
+      "sha1": "013d14339fcc378e812c42a00db8277f71d130e0"
+    },
+    {
+      "path": "src/Assets/Fonts/poppins-font/PoppinsItalic-9nE2.otf",
+      "sha1": "4348b5c4a1c76b5d81819fc3f21f74416e88ff5c"
+    },
+    {
+      "path": "src/Assets/Fonts/poppins-font/PoppinsLight-l4Zw.otf",
+      "sha1": "c217768458a2b9ba6b0d2406c14947364e185166"
+    },
+    {
+      "path": "src/Assets/Fonts/poppins-font/PoppinsLightItalic-nexO.otf",
+      "sha1": "e29352bc91a7fb77692193a1537b20ac9a2a4e99"
+    },
+    {
+      "path": "src/Assets/Fonts/poppins-font/PoppinsMedium-1JPv.otf",
+      "sha1": "cadcdaeff2150d193bcb35c29bdea82047c2c9ae"
+    },
+    {
+      "path": "src/Assets/Fonts/poppins-font/PoppinsMediumItalic-REKE.otf",
+      "sha1": "8a2b62902a8cd1cade803b4b1da7809ee9ef6901"
+    },
+    {
+      "path": "src/Assets/Fonts/poppins-font/PoppinsRegular-B2Bw.otf",
+      "sha1": "2f0a28e7d9bafe70bb3a5ea44bd8973c7ac32d32"
+    },
+    {
+      "path": "src/Assets/Fonts/poppins-font/PoppinsSemibold-8l8n.otf",
+      "sha1": "8246e0cba232755de1d032fcfdc2d637eca37ac8"
+    },
+    {
+      "path": "src/Assets/Fonts/poppins-font/PoppinsSemiboldItalic-Y132.otf",
+      "sha1": "cfc21f8caf2e112827286b5adb3cc69bd3863cda"
+    },
+    {
+      "path": "src/Assets/Fonts/poppins-font/PoppinsThin-rO2B.otf",
+      "sha1": "e3c1a36f127285f1cd30d5c88bc5cc52c83383c4"
+    },
+    {
+      "path": "src/Assets/Fonts/poppins-font/PoppinsThinItalic-M4YP.otf",
+      "sha1": "512c02504ffff489fc25c25bc77642479c83f224"
+    },
+    {
+      "path": "src/Assets/Fonts/poppins-font/info.txt",
+      "sha1": "0e022dbf185fa0f1e1e758210f3ac7c75ba99069"
+    }
+  ]
+}

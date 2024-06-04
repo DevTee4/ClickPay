@@ -26,14 +26,13 @@
 	<true/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
-	  <!-- Do not change NSAllowsArbitraryLoads to true, or you will risk app rejection! -->
 		<key>NSAllowsArbitraryLoads</key>
 		<false/>
 		<key>NSAllowsLocalNetworking</key>
 		<true/>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -48,5 +47,26 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>PoppinsBlack-VxOe.otf</string>
+		<string>PoppinsBlackItalic-JXmK.otf</string>
+		<string>PoppinsBold-GdJA.otf</string>
+		<string>PoppinsBoldItalic-jgZy.otf</string>
+		<string>PoppinsExtrabold-zDdL.otf</string>
+		<string>PoppinsExtraboldItalic-5J8v.otf</string>
+		<string>PoppinsExtralight-6Je1.otf</string>
+		<string>PoppinsExtralightItalic-yDBV.otf</string>
+		<string>PoppinsItalic-9nE2.otf</string>
+		<string>PoppinsLight-l4Zw.otf</string>
+		<string>PoppinsLightItalic-nexO.otf</string>
+		<string>PoppinsMedium-1JPv.otf</string>
+		<string>PoppinsMediumItalic-REKE.otf</string>
+		<string>PoppinsRegular-B2Bw.otf</string>
+		<string>PoppinsSemibold-8l8n.otf</string>
+		<string>PoppinsSemiboldItalic-Y132.otf</string>
+		<string>PoppinsThin-rO2B.otf</string>
+		<string>PoppinsThinItalic-M4YP.otf</string>
+	</array>
 </dict>
 </plist>
