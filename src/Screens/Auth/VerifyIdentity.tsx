@@ -5,9 +5,7 @@ import PinCode from '../../Common/PinCode';
 import { Pressable } from 'react-native';
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
 import { faCreditCard, faLocationDot, faUser } from '@fortawesome/free-solid-svg-icons';
-interface RouterProps {
-    navigation: NavigationProp<any, any>;
-}
+import { RouterProps } from '../../../App';
 
 
 const VerifyIdentity = ({ navigation }: RouterProps) => {

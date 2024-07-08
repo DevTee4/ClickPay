@@ -2,9 +2,7 @@ import { Center, VStack, Button, Box, Text } from 'native-base';
 import { NavigationProp } from "@react-navigation/native";
 import React, { useRef } from 'react';
 import PinCode from '../../Common/PinCode';
-interface RouterProps {
-    navigation: NavigationProp<any, any>;
-}
+import { RouterProps } from '../../../App';
 
 
 const Profile = ({ navigation }: RouterProps) => {

@@ -8,9 +8,7 @@ import {
     launchImageLibrary,
 } from 'react-native-image-picker';
 import { Image } from 'react-native';
-interface RouterProps {
-    navigation: NavigationProp<any, any>;
-}
+import { RouterProps } from '../../../App';
 var imageOptions: ImageLibraryOptions = {
     mediaType: 'photo',
     maxHeight: 2000,

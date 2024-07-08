@@ -1,9 +1,7 @@
 import { Center, VStack, Button, Box, Text, HStack, Icon, Circle, Square } from 'native-base';
 import { NavigationProp } from "@react-navigation/native";
 import React from 'react';
-interface RouterProps {
-    navigation: NavigationProp<any, any>;
-}
+import { RouterProps } from '../../../App';
 
 
 const ResidencyProof = ({ navigation }: RouterProps) => {

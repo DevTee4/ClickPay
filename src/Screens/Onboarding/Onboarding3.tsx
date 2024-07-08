@@ -2,12 +2,7 @@ import { Image } from 'react-native';
 import { Center, VStack, HStack, AspectRatio, ArrowForwardIcon, Button, Column, Icon } from 'native-base';
 import { NavigationProp } from "@react-navigation/native";
 import React from 'react';
-
-interface RouterProps {
-  navigation: NavigationProp<any, any>;
-}
-
-
+import { RouterProps } from '../../../App';
 const Onboarding3Screen = ({ navigation }: RouterProps) => {
   const onboard3 = Image.resolveAssetSource(require('./../../Assets/Images/On-BoardingIllustration3.png')).uri;
   const content3 = Image.resolveAssetSource(require('./../../Assets/Images/Content3.png')).uri;

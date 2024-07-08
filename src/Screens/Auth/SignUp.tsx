@@ -9,10 +9,8 @@ import { faLock } from '@fortawesome/free-solid-svg-icons/faLock';
 import { faEnvelope, faUser } from '@fortawesome/free-solid-svg-icons';
 import { faApple, faGoogle } from '@fortawesome/free-brands-svg-icons';
 import { faUserCircle } from '@fortawesome/free-regular-svg-icons';
+import { RouterProps } from '../../../App';
 
-interface RouterProps {
-    navigation: NavigationProp<any, any>;
-}
 
 
 const SignUp = ({ navigation }: RouterProps) => {

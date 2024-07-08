@@ -6,13 +6,8 @@ import React from 'react';
 import { faEyeSlash } from '@fortawesome/free-regular-svg-icons/faEyeSlash';
 import { faEye } from '@fortawesome/free-regular-svg-icons/faEye';
 import { faLock } from '@fortawesome/free-solid-svg-icons/faLock';
-import { faEnvelope, faUser } from '@fortawesome/free-solid-svg-icons';
-import { faApple, faGoogle } from '@fortawesome/free-brands-svg-icons';
-import { faUserCircle } from '@fortawesome/free-regular-svg-icons';
+import { RouterProps } from '../../../App';
 
-interface RouterProps {
-    navigation: NavigationProp<any, any>;
-}
 
 
 const ResetPassword = ({ navigation }: RouterProps) => {

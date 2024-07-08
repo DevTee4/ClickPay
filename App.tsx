@@ -1,15 +1,11 @@
 import React from "react";
-import { NativeBaseProvider, Box, extendTheme, Center, HStack, Icon, Pressable, Text } from "native-base";
-import { NavigationContainer } from '@react-navigation/native';
+import { NativeBaseProvider, extendTheme} from "native-base";
+import { NavigationContainer, NavigationProp } from '@react-navigation/native';
 import Router from "./src/Navigations";
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faSquareCheck } from '@fortawesome/free-solid-svg-icons/faSquareCheck'
-import { faEyeSlash } from '@fortawesome/free-solid-svg-icons/faEyeSlash';
-import { FontAwesomeIcon } from "@fortawesome/react-native-fontawesome";
-import { faCartShopping, faHome, faSearch, faUser } from "@fortawesome/free-solid-svg-icons";
-
-library.add(fab, faSquareCheck, faEyeSlash)
+export interface RouterProps {
+  navigation: NavigationProp<any, any>;
+  routeName?: string;
+}
 const App = () => {
   const theme = extendTheme({
     colors: {
@@ -24,10 +20,12 @@ const App = () => {
       grey: {
         50: "#efefef",
         100: "#CBCBCB",
-        200: "#EFF4F6",
+        200: "#969696",
+        // 200: "#EFF4F6",
         300: "#A8A8A8",
         400: "#323142",
         500: "#666666",
+
       }
     },
     fontConfig: {
@@ -75,7 +73,18 @@ const App = () => {
       mono: "Poppins",
     },
     config: {
-      initialColorMode: "light"
+      initialColorMode: "light",
+      useSystemColorMode: false,
+      disableTransitionOnChange: false,
+      cssVarPrefix: "nativebase",
+
+    },
+    components: {
+      Text: {
+        baseStyle: {
+          fontFamily: "Poppins",
+        },
+      },
     }
   });
   return (

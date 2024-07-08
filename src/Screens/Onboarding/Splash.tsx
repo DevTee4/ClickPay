@@ -1,10 +1,8 @@
 import { Image } from 'react-native';
 import { Center, VStack, HStack, AspectRatio, ArrowForwardIcon, Button } from 'native-base';
 import { NavigationProp } from "@react-navigation/native";
+import { RouterProps } from '../../../App';
 
-interface RouterProps {
-    navigation: NavigationProp<any, any>;
-}
 
 
 export function SplashScreen({ navigation }: RouterProps) {

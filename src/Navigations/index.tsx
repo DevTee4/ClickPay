@@ -15,15 +15,18 @@ import YourPhoto from '../Screens/Auth/YourPhoto';
 import ResidencyProof from '../Screens/Auth/ResidencyProof';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Home from '../Screens/Home/Home';
-import History from '../Screens/History/History';
+import Dashboard from '../Screens/Dashboard/Dashboard';
 import Profile from '../Screens/Profile/Profile';
 import Card from '../Screens/Card/Card';
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
 import { faChartSimple, faHome } from '@fortawesome/free-solid-svg-icons';
 import { faCreditCard, faUser } from '@fortawesome/free-regular-svg-icons';
+import ExpenseDetails from '../Screens/Home/ExpenseDetails';
+import Transactions from '../Screens/Home/Transactions';
 
 
 const Stack = createNativeStackNavigator();
+const HomeStack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
 
 const MainLayout = () => {
@@ -44,8 +47,8 @@ const MainLayout = () => {
       }}
       >
       <Tab.Screen
-        name="Home"
-        component={Home}
+        name="HomeScreens"
+        component={HomeScreens}
         options={{
           tabBarIcon: ({ focused }) => (
             <FontAwesomeIcon
@@ -57,8 +60,8 @@ const MainLayout = () => {
         }}
         />
       <Tab.Screen
-        name="History" 
-        component={History}
+        name="Dashboard" 
+        component={Dashboard}
         options={{
           tabBarIcon: ({ focused }) => (
             <FontAwesomeIcon
@@ -232,4 +235,30 @@ const Router = () => {
     </Stack.Navigator>
   )
 }
+const HomeScreens = () => {
+  return (
+    <HomeStack.Navigator>
+      <HomeStack.Screen
+        name="Home"
+        component={Home}
+        options={{
+          headerShown: false
+        }}
+      />
+      <HomeStack.Screen
+        name="ExpenseDetails"
+        component={ExpenseDetails}
+        options={{
+          headerShown: false
+        }}
+      />
+      <HomeStack.Screen
+        name="Transactions"
+        component={Transactions}
+        options={{
+          headerShown: false
+        }}
+      />
+      </HomeStack.Navigator>
+  )}
 export default Router;
