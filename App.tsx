@@ -2,16 +2,29 @@ import React from "react";
 import { NativeBaseProvider, extendTheme} from "native-base";
 import { NavigationContainer, NavigationProp } from '@react-navigation/native';
 import Router from "./src/Navigations";
+import { Dimensions } from "react-native";
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { far } from '@fortawesome/free-regular-svg-icons'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+
+// Add all icons to the library so you can use it in your page
+library.add(fas, far, fab)
+
 export interface RouterProps {
   navigation: NavigationProp<any, any>;
   routeName?: string;
 }
+export const SCREEN_HEIGHT = Math.round(Dimensions.get('window').height);
+export const SCREEN_WIDTH = Math.round(Dimensions.get('window').width);
+
 const App = () => {
   const theme = extendTheme({
     colors: {
       // Add new color
       primary: {
         50: "#004852",
+        100: "#e5edee",
       },
       secondary: {
         50: "#e8f54b"

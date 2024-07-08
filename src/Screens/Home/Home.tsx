@@ -6,10 +6,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
 import { faCreditCard } from '@fortawesome/free-regular-svg-icons';
 import { faCcMastercard, faCcStripe, faCcVisa } from '@fortawesome/free-brands-svg-icons';
 import Carousel, { Pagination } from 'react-native-snap-carousel';
-import { Dimensions, Image, LayoutChangeEvent, Pressable, StyleSheet } from 'react-native';
+import { Dimensions, Image, Pressable } from 'react-native';
 import { IconDefinition, faArrowDown, faBagShopping, faBolt, faCheck, faChevronDown, faEllipsisH, faTicketAlt } from '@fortawesome/free-solid-svg-icons';
 import TransactionHistory, { TransactionProps } from '../../Common/TransactionHistory';
-import { RouterProps } from '../../../App';
+import { RouterProps, SCREEN_HEIGHT } from '../../../App';
 type DataProps = {
     iconName: IconDefinition,
     expiryDate: string,
@@ -18,7 +18,6 @@ type DataProps = {
 }
 
 const SLIDER_WIDTH = Dimensions.get('window').width + 0;
-const SCREEN_HEIGHT = Math.round(Dimensions.get('window').height);
 const ITEM_WIDTH = Math.round(SLIDER_WIDTH * 1);
 const CarouselData: DataProps[] = [
     {
