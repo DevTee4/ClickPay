@@ -8,31 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* ClickPayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ClickPayTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-ClickPay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-ClickPay.a */; };
+		11B3BD1B85494C31BA5713BA /* PoppinsSemiboldItalic-Y132.otf in Resources */ = {isa = PBXBuildFile; fileRef = CD51D00CACC04853966A8DA2 /* PoppinsSemiboldItalic-Y132.otf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-ClickPay-ClickPayTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-ClickPay-ClickPayTests.a */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		52E07D1CCBD049D39FB75082 /* PoppinsBlack-VxOe.otf in Resources */ = {isa = PBXBuildFile; fileRef = F39B9194BFCB471C829501D2 /* PoppinsBlack-VxOe.otf */; };
-		5C2C249663CD4879BF9A6AC4 /* PoppinsBlackItalic-JXmK.otf in Resources */ = {isa = PBXBuildFile; fileRef = F9B787A85FA94343B85E34E9 /* PoppinsBlackItalic-JXmK.otf */; };
-		FD467EFDC5AC45219B47D726 /* PoppinsBold-GdJA.otf in Resources */ = {isa = PBXBuildFile; fileRef = 056F8FA302A84BA98123CA11 /* PoppinsBold-GdJA.otf */; };
-		232CE5AFDF8C449782DDBB47 /* PoppinsBoldItalic-jgZy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1A1123D9A6CF447589D5BC75 /* PoppinsBoldItalic-jgZy.otf */; };
-		A8D1BCA693554FC39C0480E6 /* PoppinsExtrabold-zDdL.otf in Resources */ = {isa = PBXBuildFile; fileRef = 00AE15848958484B9D4B7D0D /* PoppinsExtrabold-zDdL.otf */; };
-		D07CAB76E1F44F96A41DC9BF /* PoppinsExtraboldItalic-5J8v.otf in Resources */ = {isa = PBXBuildFile; fileRef = E4524857FCA44B2EB33187E7 /* PoppinsExtraboldItalic-5J8v.otf */; };
-		25278712F07449D0824B7B63 /* PoppinsExtralight-6Je1.otf in Resources */ = {isa = PBXBuildFile; fileRef = B43BAF4ACE994CFF81B13246 /* PoppinsExtralight-6Je1.otf */; };
-		759FF19CCB954AF4A38EB62B /* PoppinsExtralightItalic-yDBV.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4FADC10A4DF54B0E90968BB4 /* PoppinsExtralightItalic-yDBV.otf */; };
-		DBCB373B24E84E3B954E7D05 /* PoppinsItalic-9nE2.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE49ECD46E6F4D738DC38F00 /* PoppinsItalic-9nE2.otf */; };
 		1FADC490A3DB46188B17F699 /* PoppinsLight-l4Zw.otf in Resources */ = {isa = PBXBuildFile; fileRef = 461B55A0A6EA4686B8DF0749 /* PoppinsLight-l4Zw.otf */; };
+		232CE5AFDF8C449782DDBB47 /* PoppinsBoldItalic-jgZy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1A1123D9A6CF447589D5BC75 /* PoppinsBoldItalic-jgZy.otf */; };
 		24A748D6AC304BCBA38E10CD /* PoppinsLightItalic-nexO.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2C0B214E7DC647A5830A9230 /* PoppinsLightItalic-nexO.otf */; };
-		A35F73AD8B8D465D8E5466D5 /* PoppinsMedium-1JPv.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1CC98B9875944137B33523BF /* PoppinsMedium-1JPv.otf */; };
-		B0ADDF93E40E453B90BE9312 /* PoppinsMediumItalic-REKE.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6D75749094A84EB7BC0FE011 /* PoppinsMediumItalic-REKE.otf */; };
 		250447048F7A4E91B59B6CFA /* PoppinsRegular-B2Bw.otf in Resources */ = {isa = PBXBuildFile; fileRef = 87B26677B2EF4989954906B1 /* PoppinsRegular-B2Bw.otf */; };
+		25278712F07449D0824B7B63 /* PoppinsExtralight-6Je1.otf in Resources */ = {isa = PBXBuildFile; fileRef = B43BAF4ACE994CFF81B13246 /* PoppinsExtralight-6Je1.otf */; };
+		52E07D1CCBD049D39FB75082 /* PoppinsBlack-VxOe.otf in Resources */ = {isa = PBXBuildFile; fileRef = F39B9194BFCB471C829501D2 /* PoppinsBlack-VxOe.otf */; };
 		52EBDB0EE394440F989F6F03 /* PoppinsSemibold-8l8n.otf in Resources */ = {isa = PBXBuildFile; fileRef = 37BC94297ED74285ABCCD874 /* PoppinsSemibold-8l8n.otf */; };
-		11B3BD1B85494C31BA5713BA /* PoppinsSemiboldItalic-Y132.otf in Resources */ = {isa = PBXBuildFile; fileRef = CD51D00CACC04853966A8DA2 /* PoppinsSemiboldItalic-Y132.otf */; };
-		63681921CDA04EC185D87F9E /* PoppinsThin-rO2B.otf in Resources */ = {isa = PBXBuildFile; fileRef = FCF2C6A9A1794A2B97A25BF5 /* PoppinsThin-rO2B.otf */; };
+		5C2C249663CD4879BF9A6AC4 /* PoppinsBlackItalic-JXmK.otf in Resources */ = {isa = PBXBuildFile; fileRef = F9B787A85FA94343B85E34E9 /* PoppinsBlackItalic-JXmK.otf */; };
 		6071D195793F44B58794D35D /* PoppinsThinItalic-M4YP.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3109CB1673064A4CABFB3E3C /* PoppinsThinItalic-M4YP.otf */; };
+		63681921CDA04EC185D87F9E /* PoppinsThin-rO2B.otf in Resources */ = {isa = PBXBuildFile; fileRef = FCF2C6A9A1794A2B97A25BF5 /* PoppinsThin-rO2B.otf */; };
+		759FF19CCB954AF4A38EB62B /* PoppinsExtralightItalic-yDBV.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4FADC10A4DF54B0E90968BB4 /* PoppinsExtralightItalic-yDBV.otf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		A35F73AD8B8D465D8E5466D5 /* PoppinsMedium-1JPv.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1CC98B9875944137B33523BF /* PoppinsMedium-1JPv.otf */; };
+		A8D1BCA693554FC39C0480E6 /* PoppinsExtrabold-zDdL.otf in Resources */ = {isa = PBXBuildFile; fileRef = 00AE15848958484B9D4B7D0D /* PoppinsExtrabold-zDdL.otf */; };
+		B0ADDF93E40E453B90BE9312 /* PoppinsMediumItalic-REKE.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6D75749094A84EB7BC0FE011 /* PoppinsMediumItalic-REKE.otf */; };
+		D07CAB76E1F44F96A41DC9BF /* PoppinsExtraboldItalic-5J8v.otf in Resources */ = {isa = PBXBuildFile; fileRef = E4524857FCA44B2EB33187E7 /* PoppinsExtraboldItalic-5J8v.otf */; };
+		DBCB373B24E84E3B954E7D05 /* PoppinsItalic-9nE2.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE49ECD46E6F4D738DC38F00 /* PoppinsItalic-9nE2.otf */; };
 		E37C785AB99D45EAB418BBDB /* info.txt in Resources */ = {isa = PBXBuildFile; fileRef = 34E0028EB4BB4586A7FFBE66 /* info.txt */; };
+		FD467EFDC5AC45219B47D726 /* PoppinsBold-GdJA.otf in Resources */ = {isa = PBXBuildFile; fileRef = 056F8FA302A84BA98123CA11 /* PoppinsBold-GdJA.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,9 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00AE15848958484B9D4B7D0D /* PoppinsExtrabold-zDdL.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PoppinsExtrabold-zDdL.otf"; path = "../src/Assets/Fonts/poppins-font/PoppinsExtrabold-zDdL.otf"; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* ClickPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* ClickPayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClickPayTests.m; sourceTree = "<group>"; };
+		056F8FA302A84BA98123CA11 /* PoppinsBold-GdJA.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PoppinsBold-GdJA.otf"; path = "../src/Assets/Fonts/poppins-font/PoppinsBold-GdJA.otf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* ClickPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClickPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ClickPay/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = ClickPay/AppDelegate.mm; sourceTree = "<group>"; };
@@ -56,33 +56,25 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ClickPay/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ClickPay/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = ClickPay/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-ClickPay-ClickPayTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ClickPay-ClickPayTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-ClickPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClickPay.debug.xcconfig"; path = "Target Support Files/Pods-ClickPay/Pods-ClickPay.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-ClickPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClickPay.release.xcconfig"; path = "Target Support Files/Pods-ClickPay/Pods-ClickPay.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-ClickPay-ClickPayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClickPay-ClickPayTests.debug.xcconfig"; path = "Target Support Files/Pods-ClickPay-ClickPayTests/Pods-ClickPay-ClickPayTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-ClickPay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ClickPay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A1123D9A6CF447589D5BC75 /* PoppinsBoldItalic-jgZy.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PoppinsBoldItalic-jgZy.otf"; path = "../src/Assets/Fonts/poppins-font/PoppinsBoldItalic-jgZy.otf"; sourceTree = "<group>"; };
+		1CC98B9875944137B33523BF /* PoppinsMedium-1JPv.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PoppinsMedium-1JPv.otf"; path = "../src/Assets/Fonts/poppins-font/PoppinsMedium-1JPv.otf"; sourceTree = "<group>"; };
+		2C0B214E7DC647A5830A9230 /* PoppinsLightItalic-nexO.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PoppinsLightItalic-nexO.otf"; path = "../src/Assets/Fonts/poppins-font/PoppinsLightItalic-nexO.otf"; sourceTree = "<group>"; };
+		3109CB1673064A4CABFB3E3C /* PoppinsThinItalic-M4YP.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PoppinsThinItalic-M4YP.otf"; path = "../src/Assets/Fonts/poppins-font/PoppinsThinItalic-M4YP.otf"; sourceTree = "<group>"; };
+		34E0028EB4BB4586A7FFBE66 /* info.txt */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = info.txt; path = "../src/Assets/Fonts/poppins-font/info.txt"; sourceTree = "<group>"; };
+		37BC94297ED74285ABCCD874 /* PoppinsSemibold-8l8n.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PoppinsSemibold-8l8n.otf"; path = "../src/Assets/Fonts/poppins-font/PoppinsSemibold-8l8n.otf"; sourceTree = "<group>"; };
+		461B55A0A6EA4686B8DF0749 /* PoppinsLight-l4Zw.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PoppinsLight-l4Zw.otf"; path = "../src/Assets/Fonts/poppins-font/PoppinsLight-l4Zw.otf"; sourceTree = "<group>"; };
+		4FADC10A4DF54B0E90968BB4 /* PoppinsExtralightItalic-yDBV.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PoppinsExtralightItalic-yDBV.otf"; path = "../src/Assets/Fonts/poppins-font/PoppinsExtralightItalic-yDBV.otf"; sourceTree = "<group>"; };
+		6D75749094A84EB7BC0FE011 /* PoppinsMediumItalic-REKE.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PoppinsMediumItalic-REKE.otf"; path = "../src/Assets/Fonts/poppins-font/PoppinsMediumItalic-REKE.otf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ClickPay/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-ClickPay-ClickPayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClickPay-ClickPayTests.release.xcconfig"; path = "Target Support Files/Pods-ClickPay-ClickPayTests/Pods-ClickPay-ClickPayTests.release.xcconfig"; sourceTree = "<group>"; };
+		87B26677B2EF4989954906B1 /* PoppinsRegular-B2Bw.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PoppinsRegular-B2Bw.otf"; path = "../src/Assets/Fonts/poppins-font/PoppinsRegular-B2Bw.otf"; sourceTree = "<group>"; };
+		AE49ECD46E6F4D738DC38F00 /* PoppinsItalic-9nE2.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PoppinsItalic-9nE2.otf"; path = "../src/Assets/Fonts/poppins-font/PoppinsItalic-9nE2.otf"; sourceTree = "<group>"; };
+		B43BAF4ACE994CFF81B13246 /* PoppinsExtralight-6Je1.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PoppinsExtralight-6Je1.otf"; path = "../src/Assets/Fonts/poppins-font/PoppinsExtralight-6Je1.otf"; sourceTree = "<group>"; };
+		CD51D00CACC04853966A8DA2 /* PoppinsSemiboldItalic-Y132.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PoppinsSemiboldItalic-Y132.otf"; path = "../src/Assets/Fonts/poppins-font/PoppinsSemiboldItalic-Y132.otf"; sourceTree = "<group>"; };
+		E4524857FCA44B2EB33187E7 /* PoppinsExtraboldItalic-5J8v.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PoppinsExtraboldItalic-5J8v.otf"; path = "../src/Assets/Fonts/poppins-font/PoppinsExtraboldItalic-5J8v.otf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F39B9194BFCB471C829501D2 /* PoppinsBlack-VxOe.otf */ = {isa = PBXFileReference; name = "PoppinsBlack-VxOe.otf"; path = "../src/Assets/Fonts/poppins-font/PoppinsBlack-VxOe.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F9B787A85FA94343B85E34E9 /* PoppinsBlackItalic-JXmK.otf */ = {isa = PBXFileReference; name = "PoppinsBlackItalic-JXmK.otf"; path = "../src/Assets/Fonts/poppins-font/PoppinsBlackItalic-JXmK.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		056F8FA302A84BA98123CA11 /* PoppinsBold-GdJA.otf */ = {isa = PBXFileReference; name = "PoppinsBold-GdJA.otf"; path = "../src/Assets/Fonts/poppins-font/PoppinsBold-GdJA.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		1A1123D9A6CF447589D5BC75 /* PoppinsBoldItalic-jgZy.otf */ = {isa = PBXFileReference; name = "PoppinsBoldItalic-jgZy.otf"; path = "../src/Assets/Fonts/poppins-font/PoppinsBoldItalic-jgZy.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		00AE15848958484B9D4B7D0D /* PoppinsExtrabold-zDdL.otf */ = {isa = PBXFileReference; name = "PoppinsExtrabold-zDdL.otf"; path = "../src/Assets/Fonts/poppins-font/PoppinsExtrabold-zDdL.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E4524857FCA44B2EB33187E7 /* PoppinsExtraboldItalic-5J8v.otf */ = {isa = PBXFileReference; name = "PoppinsExtraboldItalic-5J8v.otf"; path = "../src/Assets/Fonts/poppins-font/PoppinsExtraboldItalic-5J8v.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B43BAF4ACE994CFF81B13246 /* PoppinsExtralight-6Je1.otf */ = {isa = PBXFileReference; name = "PoppinsExtralight-6Je1.otf"; path = "../src/Assets/Fonts/poppins-font/PoppinsExtralight-6Je1.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4FADC10A4DF54B0E90968BB4 /* PoppinsExtralightItalic-yDBV.otf */ = {isa = PBXFileReference; name = "PoppinsExtralightItalic-yDBV.otf"; path = "../src/Assets/Fonts/poppins-font/PoppinsExtralightItalic-yDBV.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		AE49ECD46E6F4D738DC38F00 /* PoppinsItalic-9nE2.otf */ = {isa = PBXFileReference; name = "PoppinsItalic-9nE2.otf"; path = "../src/Assets/Fonts/poppins-font/PoppinsItalic-9nE2.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		461B55A0A6EA4686B8DF0749 /* PoppinsLight-l4Zw.otf */ = {isa = PBXFileReference; name = "PoppinsLight-l4Zw.otf"; path = "../src/Assets/Fonts/poppins-font/PoppinsLight-l4Zw.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2C0B214E7DC647A5830A9230 /* PoppinsLightItalic-nexO.otf */ = {isa = PBXFileReference; name = "PoppinsLightItalic-nexO.otf"; path = "../src/Assets/Fonts/poppins-font/PoppinsLightItalic-nexO.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		1CC98B9875944137B33523BF /* PoppinsMedium-1JPv.otf */ = {isa = PBXFileReference; name = "PoppinsMedium-1JPv.otf"; path = "../src/Assets/Fonts/poppins-font/PoppinsMedium-1JPv.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		6D75749094A84EB7BC0FE011 /* PoppinsMediumItalic-REKE.otf */ = {isa = PBXFileReference; name = "PoppinsMediumItalic-REKE.otf"; path = "../src/Assets/Fonts/poppins-font/PoppinsMediumItalic-REKE.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		87B26677B2EF4989954906B1 /* PoppinsRegular-B2Bw.otf */ = {isa = PBXFileReference; name = "PoppinsRegular-B2Bw.otf"; path = "../src/Assets/Fonts/poppins-font/PoppinsRegular-B2Bw.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		37BC94297ED74285ABCCD874 /* PoppinsSemibold-8l8n.otf */ = {isa = PBXFileReference; name = "PoppinsSemibold-8l8n.otf"; path = "../src/Assets/Fonts/poppins-font/PoppinsSemibold-8l8n.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		CD51D00CACC04853966A8DA2 /* PoppinsSemiboldItalic-Y132.otf */ = {isa = PBXFileReference; name = "PoppinsSemiboldItalic-Y132.otf"; path = "../src/Assets/Fonts/poppins-font/PoppinsSemiboldItalic-Y132.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		FCF2C6A9A1794A2B97A25BF5 /* PoppinsThin-rO2B.otf */ = {isa = PBXFileReference; name = "PoppinsThin-rO2B.otf"; path = "../src/Assets/Fonts/poppins-font/PoppinsThin-rO2B.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3109CB1673064A4CABFB3E3C /* PoppinsThinItalic-M4YP.otf */ = {isa = PBXFileReference; name = "PoppinsThinItalic-M4YP.otf"; path = "../src/Assets/Fonts/poppins-font/PoppinsThinItalic-M4YP.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		34E0028EB4BB4586A7FFBE66 /* info.txt */ = {isa = PBXFileReference; name = "info.txt"; path = "../src/Assets/Fonts/poppins-font/info.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F39B9194BFCB471C829501D2 /* PoppinsBlack-VxOe.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PoppinsBlack-VxOe.otf"; path = "../src/Assets/Fonts/poppins-font/PoppinsBlack-VxOe.otf"; sourceTree = "<group>"; };
+		F9B787A85FA94343B85E34E9 /* PoppinsBlackItalic-JXmK.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PoppinsBlackItalic-JXmK.otf"; path = "../src/Assets/Fonts/poppins-font/PoppinsBlackItalic-JXmK.otf"; sourceTree = "<group>"; };
+		FCF2C6A9A1794A2B97A25BF5 /* PoppinsThin-rO2B.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PoppinsThin-rO2B.otf"; path = "../src/Assets/Fonts/poppins-font/PoppinsThin-rO2B.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +82,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-ClickPay-ClickPayTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +89,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-ClickPay.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,12 +126,36 @@
 			name = ClickPay;
 			sourceTree = "<group>";
 		};
+		26ED282B868D4AE2A534939E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F39B9194BFCB471C829501D2 /* PoppinsBlack-VxOe.otf */,
+				F9B787A85FA94343B85E34E9 /* PoppinsBlackItalic-JXmK.otf */,
+				056F8FA302A84BA98123CA11 /* PoppinsBold-GdJA.otf */,
+				1A1123D9A6CF447589D5BC75 /* PoppinsBoldItalic-jgZy.otf */,
+				00AE15848958484B9D4B7D0D /* PoppinsExtrabold-zDdL.otf */,
+				E4524857FCA44B2EB33187E7 /* PoppinsExtraboldItalic-5J8v.otf */,
+				B43BAF4ACE994CFF81B13246 /* PoppinsExtralight-6Je1.otf */,
+				4FADC10A4DF54B0E90968BB4 /* PoppinsExtralightItalic-yDBV.otf */,
+				AE49ECD46E6F4D738DC38F00 /* PoppinsItalic-9nE2.otf */,
+				461B55A0A6EA4686B8DF0749 /* PoppinsLight-l4Zw.otf */,
+				2C0B214E7DC647A5830A9230 /* PoppinsLightItalic-nexO.otf */,
+				1CC98B9875944137B33523BF /* PoppinsMedium-1JPv.otf */,
+				6D75749094A84EB7BC0FE011 /* PoppinsMediumItalic-REKE.otf */,
+				87B26677B2EF4989954906B1 /* PoppinsRegular-B2Bw.otf */,
+				37BC94297ED74285ABCCD874 /* PoppinsSemibold-8l8n.otf */,
+				CD51D00CACC04853966A8DA2 /* PoppinsSemiboldItalic-Y132.otf */,
+				FCF2C6A9A1794A2B97A25BF5 /* PoppinsThin-rO2B.otf */,
+				3109CB1673064A4CABFB3E3C /* PoppinsThinItalic-M4YP.otf */,
+				34E0028EB4BB4586A7FFBE66 /* info.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-ClickPay.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-ClickPay-ClickPayTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -151,7 +165,8 @@
 			children = (
 			);
 			name = Libraries;
-			sourceTree = "<group>";
+			path = ../../../../Users/devtee4/Desktop/Wragby/ClickPay/ios;
+			sourceTree = DEVELOPER_DIR;
 		};
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
@@ -181,40 +196,9 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-ClickPay.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-ClickPay.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-ClickPay-ClickPayTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-ClickPay-ClickPayTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
-		};
-		26ED282B868D4AE2A534939E /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				F39B9194BFCB471C829501D2 /* PoppinsBlack-VxOe.otf */,
-				F9B787A85FA94343B85E34E9 /* PoppinsBlackItalic-JXmK.otf */,
-				056F8FA302A84BA98123CA11 /* PoppinsBold-GdJA.otf */,
-				1A1123D9A6CF447589D5BC75 /* PoppinsBoldItalic-jgZy.otf */,
-				00AE15848958484B9D4B7D0D /* PoppinsExtrabold-zDdL.otf */,
-				E4524857FCA44B2EB33187E7 /* PoppinsExtraboldItalic-5J8v.otf */,
-				B43BAF4ACE994CFF81B13246 /* PoppinsExtralight-6Je1.otf */,
-				4FADC10A4DF54B0E90968BB4 /* PoppinsExtralightItalic-yDBV.otf */,
-				AE49ECD46E6F4D738DC38F00 /* PoppinsItalic-9nE2.otf */,
-				461B55A0A6EA4686B8DF0749 /* PoppinsLight-l4Zw.otf */,
-				2C0B214E7DC647A5830A9230 /* PoppinsLightItalic-nexO.otf */,
-				1CC98B9875944137B33523BF /* PoppinsMedium-1JPv.otf */,
-				6D75749094A84EB7BC0FE011 /* PoppinsMediumItalic-REKE.otf */,
-				87B26677B2EF4989954906B1 /* PoppinsRegular-B2Bw.otf */,
-				37BC94297ED74285ABCCD874 /* PoppinsSemibold-8l8n.otf */,
-				CD51D00CACC04853966A8DA2 /* PoppinsSemiboldItalic-Y132.otf */,
-				FCF2C6A9A1794A2B97A25BF5 /* PoppinsThin-rO2B.otf */,
-				3109CB1673064A4CABFB3E3C /* PoppinsThinItalic-M4YP.otf */,
-				34E0028EB4BB4586A7FFBE66 /* info.txt */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -223,12 +207,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ClickPayTests" */;
 			buildPhases = (
-				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,13 +225,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ClickPay" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -352,118 +330,6 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ClickPay/Pods-ClickPay-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ClickPay/Pods-ClickPay-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClickPay/Pods-ClickPay-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ClickPay-ClickPayTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ClickPay-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ClickPay-ClickPayTests/Pods-ClickPay-ClickPayTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ClickPay-ClickPayTests/Pods-ClickPay-ClickPayTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClickPay-ClickPayTests/Pods-ClickPay-ClickPayTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ClickPay/Pods-ClickPay-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ClickPay/Pods-ClickPay-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClickPay/Pods-ClickPay-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ClickPay-ClickPayTests/Pods-ClickPay-ClickPayTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ClickPay-ClickPayTests/Pods-ClickPay-ClickPayTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClickPay-ClickPayTests/Pods-ClickPay-ClickPayTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -497,7 +363,6 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-ClickPay-ClickPayTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -524,7 +389,6 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-ClickPay-ClickPayTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -548,7 +412,6 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-ClickPay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -575,7 +438,6 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-ClickPay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

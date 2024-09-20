@@ -31,6 +31,7 @@ import ConfirmTransfer from '../Screens/Transfer/ConfirmTransfer';
 import Preferences from '../Screens/Profile/Preferences';
 import EditInfo from '../Screens/Profile/EditInfo';
 import InviteFriends from '../Screens/Profile/InviteFriends';
+import CardSettings from '../Screens/Card/CardSettings';
 
 
 const Stack = createNativeStackNavigator();
@@ -93,18 +94,7 @@ const MainLayout = () => {
               size={focused ? 30 : 22}
               color={focused ? '#004852' : '#CBCBCB'}
             />
-          ),
-          // tabBarActiveBackgroundColor: '#004852',
-          // tabBarInactiveBackgroundColor: 'white',
-          // tabBarActiveTintColor: '#e8f54b',
-          // tabBarIconStyle: {
-          //   marginTop: -10,
-          //   marginBottom: 10,
-          //   alignItems: 'center',
-          //   color: '#004852',
-          //   justifyContent: 'center',
-          //   alignSelf: 'center'
-          // }
+          )
         }}
       />
       <Tab.Screen
@@ -317,6 +307,13 @@ const CardScreens = () => {
       <CardStack.Screen
         name="CardDetails"
         component={CardDetails}
+        options={{
+          headerShown: false
+        }}
+      />
+      <CardStack.Screen
+        name="CardSettings"
+        component={CardSettings}
         options={{
           headerShown: false
         }}
