@@ -13,7 +13,7 @@ const PinCode = () => {
             </HStack>
 
             <VStack>
-
+                <HStack></HStack>
             </VStack>
         </FormControl>
     );
